@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'Coves Light';
+    src: url('/webfonts/Coves\ Light.otf');
+}
+
+@font-face {
+    font-family: 'Nexa Bold';
+    src: url('/webfonts/Nexa\ Bold.otf');
+}
+
 body {}
 
 /* GLOBAL */
@@ -10,6 +20,7 @@ h6 {
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     font-weight: bold;
+    font-family: 'Coves Light', sans-serif;
 }
 
 .text-middle {
@@ -72,10 +83,13 @@ header {
     align-items: center;
 
     .video__heading {
-        letter-spacing: 1px;
         color: #fff;
         text-align: center;
         text-transform: uppercase;
+
+        span {
+            font-family: 'Nexa Bold', sans-serif;
+        }
     }
 
     iframe {
@@ -113,11 +127,11 @@ header {
 .second {
     width: 100%;
     height: 100vh;
-    // background-color: #ccc;
     background-color: rgba(215, 76, 69, 1);
     display: flex;
-    flex-flow: row;
-
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 
     .live__heading {
@@ -127,7 +141,9 @@ header {
         color: #fff;
     }
 
-    .container {}
+    .container {
+        font-family: 'Coves Light', sans-serif;
+    }
 }
 
 .live__row {
@@ -145,7 +161,6 @@ header {
 
 .footer {
     color: #fff;
-    // align-self: flex-end;
 
 }
 
