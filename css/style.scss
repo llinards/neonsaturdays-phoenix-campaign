@@ -4,8 +4,18 @@
 }
 
 @font-face {
+    font-family: 'Coves Bold';
+    src: url('/webfonts/Coves\ Bold.otf');
+}
+
+@font-face {
     font-family: 'Nexa Bold';
     src: url('/webfonts/Nexa\ Bold.otf');
+}
+
+@font-face {
+    font-family: 'Gotham Light';
+    src: url('/webfonts/Gotham\ Light\ Regular.otf');
 }
 
 body {}
@@ -39,12 +49,14 @@ header {
     position: fixed;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
 
     h4 {
         margin: 0;
         text-transform: uppercase;
         margin-left: 15px;
+        font-family: 'Coves Bold', sans-serif;
     }
 
     .nav_items {}
@@ -86,14 +98,21 @@ header {
         color: #fff;
         text-align: center;
         text-transform: uppercase;
+        margin-bottom: 0;
 
         span {
             font-family: 'Nexa Bold', sans-serif;
         }
     }
 
+    .last {
+        margin-bottom: 0.5rem;
+    }
+
     iframe {
         border: 10px solid #fff;
+        width: 760px;
+        height: 415px;
     }
 
     .video__arrow-down {
@@ -142,7 +161,7 @@ header {
     }
 
     .container {
-        font-family: 'Coves Light', sans-serif;
+        font-family: 'Gotham Light', sans-serif;
     }
 }
 

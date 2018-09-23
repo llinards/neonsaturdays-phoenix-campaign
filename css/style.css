@@ -2,8 +2,14 @@
   font-family: 'Coves Light';
   src: url("/webfonts/Coves Light.otf"); }
 @font-face {
+  font-family: 'Coves Bold';
+  src: url("/webfonts/Coves Bold.otf"); }
+@font-face {
   font-family: 'Nexa Bold';
   src: url("/webfonts/Nexa Bold.otf"); }
+@font-face {
+  font-family: 'Gotham Light';
+  src: url("/webfonts/Gotham Light Regular.otf"); }
 /* GLOBAL */
 h1,
 h2,
@@ -30,11 +36,13 @@ header {
   position: fixed;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center; }
   header h4 {
     margin: 0;
     text-transform: uppercase;
-    margin-left: 15px; }
+    margin-left: 15px;
+    font-family: 'Coves Bold', sans-serif; }
   header .nav_items ul {
     margin: 0;
     padding: 0; }
@@ -63,11 +71,16 @@ header {
   .first .video__heading {
     color: #fff;
     text-align: center;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    margin-bottom: 0; }
     .first .video__heading span {
       font-family: 'Nexa Bold', sans-serif; }
+  .first .last {
+    margin-bottom: 0.5rem; }
   .first iframe {
-    border: 10px solid #fff; }
+    border: 10px solid #fff;
+    width: 760px;
+    height: 415px; }
   .first .video__arrow-down {
     text-align: center;
     animation: upAndDown 5s infinite; }
@@ -98,7 +111,7 @@ header {
     margin-bottom: 2rem;
     color: #fff; }
   .second .container {
-    font-family: 'Coves Light', sans-serif; }
+    font-family: 'Gotham Light', sans-serif; }
 
 .live__row {
   border-top: 2px solid #fff;
