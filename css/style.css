@@ -10,6 +10,9 @@
 @font-face {
   font-family: 'Gotham Light';
   src: url("/webfonts/Gotham Light Regular.otf"); }
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url("/webfonts/Gotham Light Regular.otf"); }
 /* GLOBAL */
 h1,
 h2,
@@ -104,14 +107,13 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  position: relative; }
   .second .live__heading {
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 2rem;
     color: #fff; }
-  .second .container {
-    font-family: 'Gotham Light', sans-serif; }
 
 .live__row {
   border-top: 2px solid #fff;
@@ -123,7 +125,11 @@ header {
     color: #fff; }
 
 .footer {
-  color: #fff; }
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 25%;
+  right: 25%; }
 
 /* end SECTION SECOND */
 
