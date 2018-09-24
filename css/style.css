@@ -40,7 +40,8 @@ header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  align-items: center; }
+  align-items: center;
+  z-index: 1; }
   header h4 {
     margin: 0;
     text-transform: uppercase;
