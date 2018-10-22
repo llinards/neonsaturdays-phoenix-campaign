@@ -125,6 +125,36 @@ header {
   .live__row a {
     color: #fff; }
 
+/* end SECTION SECOND */
+/* SECTION THIRD */
+.third {
+  width: 100%;
+  height: 100%;
+  background-color: #d74c45;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative; }
+  .third .videos__heading {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #fff; }
+
+.videos {
+  margin-bottom: 10rem; }
+  .videos h4 {
+    margin-bottom: 1rem;
+    margin-top: 1rem; }
+
+.all_video__row {
+  margin: 0 auto !important;
+  justify-content: center; }
+  .all_video__row iframe {
+    width: 560px;
+    height: 315px; }
+
 .footer {
   color: #fff;
   position: absolute;
@@ -132,6 +162,6 @@ header {
   left: 25%;
   right: 25%; }
 
-/* end SECTION SECOND */
+/* end SECTION THIRD */
 
 /*# sourceMappingURL=style.css.map */

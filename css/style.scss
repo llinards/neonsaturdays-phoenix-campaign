@@ -187,6 +187,49 @@ header {
 
 }
 
+
+
+/* end SECTION SECOND */
+/* SECTION THIRD */
+.third {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(215, 76, 69, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    .videos__heading {
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 2rem;
+        color: #fff;
+    }
+}
+
+.videos {
+    h4 {
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+
+    margin-bottom: 10rem;
+}
+
+
+
+.all_video__row {
+    margin: 0 auto !important;
+    justify-content: center;
+
+    iframe {
+        width: 560px;
+        height: 315px;
+    }
+}
+
 .footer {
     color: #fff;
     position: absolute;
@@ -195,4 +238,4 @@ header {
     right: 25%;
 }
 
-/* end SECTION SECOND */
+/* end SECTION THIRD */
