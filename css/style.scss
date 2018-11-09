@@ -67,8 +67,6 @@ header {
         font-family: 'Coves Bold', sans-serif;
     }
 
-    .nav_items {}
-
     .nav_items ul {
         margin: 0;
         padding: 0;
@@ -96,11 +94,13 @@ header {
 .first {
     padding-top: 50px;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
+    overflow: auto;
     background-color: rgba(215, 76, 69, 1);
     display: flex;
     justify-content: center;
     align-items: center;
+
 
     .video__heading {
         color: #fff;
@@ -126,12 +126,18 @@ header {
     .video__arrow-down {
         text-align: center;
         animation: upAndDown 5s infinite;
+        margin-bottom: 2rem;
 
         a {
             color: #fff;
             font-size: 4rem;
         }
     }
+}
+
+.fito-logo {
+    width: 30%;
+    margin: 0 auto;
 }
 
 @keyframes upAndDown {
@@ -168,10 +174,6 @@ header {
         margin-bottom: 2rem;
         color: #fff;
     }
-
-    .container {
-        // font-family: 'Helvetica Neue', sans-serif;
-    }
 }
 
 .live__row {
@@ -185,6 +187,16 @@ header {
         color: #fff;
     }
 
+    .btn-buy {
+        border: 1px solid white;
+        box-shadow: 0px 0 4px 1px white;
+    }
+
+    .btn-buy:hover {
+        background-color: white;
+        color: black;
+    }
+
 }
 
 
@@ -193,7 +205,8 @@ header {
 /* SECTION THIRD */
 .third {
     width: 100%;
-    height: 100%;
+    min-height: 100vh;
+    overflow: auto;
     background-color: rgba(215, 76, 69, 1);
     display: flex;
     flex-direction: column;
@@ -230,6 +243,42 @@ header {
     }
 }
 
+
+
+/* end SECTION THIRD */
+
+/* SECTION FOURTH  */
+
+.four {
+    width: 100%;
+    min-height: 100vh;
+    overflow: auto;
+    background-color: rgba(215, 76, 69, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    .store__heading {
+
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 2rem;
+        color: #fff;
+
+    }
+}
+
+#product-component-81117beabe1 {
+    margin: 0 auto !important;
+}
+.shopify-buy__product__title {
+    color: #fff !important;
+}
+
+
+
 .footer {
     color: #fff;
     position: absolute;
@@ -238,4 +287,5 @@ header {
     right: 25%;
 }
 
-/* end SECTION THIRD */
+
+/* end SECTION FOURTH  */
