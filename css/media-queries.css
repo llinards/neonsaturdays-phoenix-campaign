@@ -34,6 +34,10 @@
 
 @media (max-width: 576px) {
 
+    .all_video__row iframe {
+        border: 0;
+    }
+
     .third .videos__heading,
     .second .live__heading,
         {

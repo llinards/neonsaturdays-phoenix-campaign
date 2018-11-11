@@ -297,3 +297,42 @@ header {
 
 
 /* end SECTION FOURTH  */
+#button {
+    display: inline-block;
+    // background-color: #3c2f2a;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 0.25rem;
+    margin: 1, 875rem;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+    color: #fff;
+    padding-top: 0.6rem;
+}
+
+#button:hover {
+    cursor: pointer;
+}
+
+#button::after {
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.25rem;
+    line-height: 3.125rem;
+    color: #fff;
+}
+
+#button.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.button__icon {
+    font-size: 2.5rem;
+}
