@@ -87,6 +87,10 @@ header {
     margin-right: 10px;
 }
 
+.all_video__row iframe {
+    border: 10px solid white;
+}
+
 /* end HEADER */
 
 
@@ -189,7 +193,6 @@ header {
 
     .btn-buy {
         border: 1px solid white;
-        box-shadow: 0px 0 4px 1px white;
     }
 
     .btn-buy:hover {
@@ -260,6 +263,10 @@ header {
     align-items: center;
     position: relative;
 
+    .store {
+        margin-bottom: 7rem;
+    }
+
     .store__heading {
 
         text-transform: uppercase;
@@ -270,9 +277,10 @@ header {
     }
 }
 
-#product-component-81117beabe1 {
+#product-component-ac17d697275 {
     margin: 0 auto !important;
 }
+
 .shopify-buy__product__title {
     color: #fff !important;
 }

@@ -1,7 +1,7 @@
 /* WIDTH */
 
 @media (max-width: 768px) {
-    iframe {
+    iframe.video__player {
         width: 608px !important;
         height: 332px !important;
     }
@@ -26,7 +26,7 @@
 }
 
 @media (max-width: 619px) {
-    iframe {
+    iframe.video__player {
         width: 456px !important;
         height: 249px !important;
     }
@@ -87,14 +87,14 @@
 }
 
 @media (max-width: 464px) {
-    iframe {
+    iframe.video__player {
         width: 342px !important;
         height: 186px !important;
     }
 }
 
 @media (max-width: 349px) {
-    iframe {
+    iframe.video__player {
         width: 307px !important;
         height: 167px !important;
         border-left: none;
@@ -103,7 +103,7 @@
 }
 
 @media (max-width: 319px) {
-    iframe {
+    iframe.video__player {
         display: none;
     }
 }

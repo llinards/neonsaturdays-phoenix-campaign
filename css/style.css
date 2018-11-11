@@ -62,6 +62,9 @@ header {
   margin-left: 10px;
   margin-right: 10px; }
 
+.all_video__row iframe {
+  border: 10px solid white; }
+
 /* end HEADER */
 /* SECTION FIRST */
 .first {
@@ -131,8 +134,7 @@ header {
   .live__row a {
     color: #fff; }
   .live__row .btn-buy {
-    border: 1px solid white;
-    box-shadow: 0px 0 4px 1px white; }
+    border: 1px solid white; }
   .live__row .btn-buy:hover {
     background-color: white;
     color: black; }
@@ -180,13 +182,15 @@ header {
   justify-content: center;
   align-items: center;
   position: relative; }
+  .four .store {
+    margin-bottom: 7rem; }
   .four .store__heading {
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 2rem;
     color: #fff; }
 
-#product-component-81117beabe1 {
+#product-component-ac17d697275 {
   margin: 0 auto !important; }
 
 .shopify-buy__product__title {
